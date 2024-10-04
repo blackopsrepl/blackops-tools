@@ -14,8 +14,7 @@ struct Args {
     #[clap(short = 'l', long = "languages", value_enum)]
     languages: Vec<Language>, // The list of languages to filter files by.
 
-    // TODO: add github url
-    
+                              // TODO: add github url
 }
 
 fn main() -> std::io::Result<()> {
